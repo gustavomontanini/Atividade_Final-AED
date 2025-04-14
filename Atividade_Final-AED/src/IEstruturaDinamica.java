@@ -6,10 +6,10 @@ public interface IEstruturaDinamica {
     void removerTodasOcorrencias(Object elemento);
     boolean estaCheia();
     boolean estaVazia();
-//    boolean buscarElemento(Object elemento);
-//    void ordenarCrescente();
-//    void ordenarDecrescente();
-//    int quantidadeElementos();
+    boolean buscarElemento(Object elemento);
+    void ordenarCrescente();
+    void ordenarDecrescente();
+    int quantidadeElementos();
     void editarElemento(Object elementoAntigo, Object elementoNovo);
     void limpar();
     void exibir();
